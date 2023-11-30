@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <h1 style="color: aqua;">percentagem program in javascript</h1>
+  <script>
+    var English = parseInt (prompt("Enter English marks"));
+    var maths = parseInt (prompt("Enter maths marks"));
+    var physics = parseInt (prompt("Enter physics marks"));
+
+    function Percentage(num1, num2, num3)
+   {
+    var x = num1 + num2 + num3;
+    var z = x / 300 * 100 //Percentage forula
+    return z;
+  
+   }
+var Total = Percentage (English, maths,  physics);
+document.write("Total percentag is:" + Total +"%")
+
+</script>
+
+</body>
+</html>
